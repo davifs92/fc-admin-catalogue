@@ -1,10 +1,10 @@
 package org.fullcycle.admin.catalogue.application;
 
-import org.fullcycle.admin.catalogue.domain.Category;
+import org.fullcycle.admin.catalogue.domain.category.Category;
 
 public class UseCase {
     
-    public Category execute(){
+   /* public Category execute(){
         return new Category();
-    }
+    } */
 }
