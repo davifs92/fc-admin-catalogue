@@ -1,4 +1,4 @@
-package org.fullcycle.admin.catalogue.domain.category;
+package org.fullcycle.admin.catalogue.domain;
 
-public abstract class Identifier extends ValueObject{
+public abstract class Identifier extends ValueObject {
 }

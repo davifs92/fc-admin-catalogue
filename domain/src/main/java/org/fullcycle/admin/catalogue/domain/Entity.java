@@ -1,4 +1,6 @@
-package org.fullcycle.admin.catalogue.domain.category;
+package org.fullcycle.admin.catalogue.domain;
+
+import org.fullcycle.admin.catalogue.domain.validation.ValidationHandler;
 
 import java.util.Objects;
 
@@ -10,6 +12,8 @@ public abstract class Entity<ID extends Identifier> {
         Objects.requireNonNull(id, "is cannot be null");
         this.id = id;
     }
+
+    public abstract void validate(ValidationHandler handler);
 
     public ID getId() {
         return id;

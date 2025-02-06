@@ -1,4 +1,5 @@
 package org.fullcycle.admin.catalogue.application;
 
-public class NullaryUseCase {
+public abstract class NullaryUseCase<OUT> {
+    public abstract OUT execute();
 }

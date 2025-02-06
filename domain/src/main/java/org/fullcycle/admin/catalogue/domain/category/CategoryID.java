@@ -1,6 +1,7 @@
 package org.fullcycle.admin.catalogue.domain.category;
 
-import java.util.Locale;
+import org.fullcycle.admin.catalogue.domain.Identifier;
+
 import java.util.Objects;
 import java.util.UUID;
 
